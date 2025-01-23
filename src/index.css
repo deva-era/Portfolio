@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    padding: 0;
+    margin: 0;
+}
+:root{
+    --main-color: cyan;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-color:rgb(0, 0, 0);
+    color: white;
+}
+.poppins_font{
+    font-family: "poppins", sans-serif;
+}
+
+.button_setup{
+    background:#0ef;
+    @apply text-sm text-black px-3 rounded-xl py-1 font-bold
+}
+.button_setup:hover{
+    box-shadow: 0 0 5px cyan, 
+    0 0 25px cyan, 
+    0 0 50px cyan,
+    0 0 2px cyan;
+}
+
+/* header */
+.header_menu:hover{
+    text-shadow: 0 0 5px #0ff, 
+    0 0 10px #0ff, 
+    0 0 20px #0ff, 
+    0 0 50px #0ff, 
+    0 0 30px #0ff;
+    color: #0ff;
+}
+
+.box_shadows{
+    box-shadow: 0px 0px 10px 0px #ffffff inset;
+}
+/*  */
+
+/* into section */
+
+.intro_profile{
+    @apply ring-offset-2 ring-2 h-80 w-80 rounded-full border-4 
+    border-teal-400  transform hover:shadow-green-600 duration-1000
+    overflow-hidden shadow-2xl shadow-teal-400/100
+}
+
+.intro_icons{
+    padding: 7px;
+    color: #0ef;
+    @apply border-2  border-teal-400 rounded-full 
+}
+
+.intro_icons:hover{
+    box-shadow: 0 0 5px #0ff, 
+    0 0 2px #0ff, 
+    0 0 15px #0ff;
+    color: #0ff;
+    background-color:#00ffee9d;
+}
+/*  */
+
+/* skills */
+
+.skills_shadow:hover{
+    text-shadow: 0 0 5px #0ff, 
+    0 0 10px #0ff, 
+    0 0 20px #0ff, 
+    0 0 50px #0ff, 
+    0 0 30px #0ff;
+}
+
+.red_shadow:hover{
+    text-shadow: 0 0 5px rgb(255, 34, 0), 
+    0 0 10px rgb(255, 34, 0), 
+    0 0 20px rgb(255, 34, 0), 
+    0 0 50px rgb(255, 34, 0);
+    /* 0 0 30px rgb(255, 34, 0); */
+}
+.tags_red{
+  color: red;
+}
+.tags_blue{
+  color: cyan;
+}
+.pic_shadow{
+     box-shadow: 0 0 5px rgba(3, 10, 10, 0.883), 
+    0 0 25px rgba(7, 11, 11, 0.8), 
+    0 0 50px rgba(7, 9, 9, 0.593),
+    0 0 2px rgb(17, 20, 20);
+}
+.funny{
+     box-shadow: 0px 0px 35px  rgba(255, 255, 255, 0.155);
+    /* 0 0 25px rgba(245, 181, 6, 0.8),  */
+    /* 0 0 50px rgba(245, 181, 6, 0.593), */
+    /* 15px 10px 0px rgba(255, 255, 255, 0.291); */
+}
+
+/* skil end */
+
+/* projects */
+.project_box_shadow:hover{
+    box-shadow: 0 0 5px rgba(0, 255, 255, 0.883), 
+    0 0 25px rgba(0, 255, 255, 0.8), 
+    0 0 50px rgba(0, 255, 255, 0.593),
+    0 0 2px cyan;
+}
+
+/* project end */
+
+/* conatcr */
+
+.contact_border{
+   border:1px solid #0ff;
+}
+
+/* contact end */
+
+/* footer */
+.red_footer_shadow:hover{
+    text-shadow: 0 0 5px rgb(255, 34, 0), 
+    0 0 10px rgb(255, 34, 0), 
+    0 0 20px rgb(255, 34, 0), 
+    0 0 50px rgb(255, 34, 0);
+    /* 0 0 30px rgb(255, 34, 0); */
+}
+.blue_footer_shadow:hover{
+    text-shadow: 0 0 5px  #0ff, 
+    /* 0 0 10px #0ff, 
+    0 0 20px #0ff,  */
+    0 0 10px rgba(0, 255, 255, 0.379);
+    color: rgb(255, 255, 255);
+}
+
+
+/*  */
