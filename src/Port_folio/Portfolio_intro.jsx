@@ -68,7 +68,7 @@ function Portfolio_intro() {
         <div>
           <button className=" button_setup">
             <a
-              href="/port_folio_images/resume/Devanathan Software Engineer Resume.pdf"
+              href="https://docs.google.com/document/d/1le8G_W3MVJV8MpD0xbK1RndpjGC-ZEWg29vZ-IVeEas/edit?tab=t.0"
               download="Resume.pdf"
             >
               Download CV
